@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class blog extends Model
+{
+    //
+
+    
+    protected $fillable = [
+        'image',
+        'name',
+        'city',
+        'date',
+       
+
+    ];
+}

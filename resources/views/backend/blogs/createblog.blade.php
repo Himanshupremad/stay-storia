@@ -28,8 +28,7 @@
                                     </div>
                                 @endsession
                                 <div class="card-body">
-                                    <form action='{{ route('create.blogs') }}' method="POST" enctype="multipart/form-data"
-                                        class="form form-vertical">
+                                    <form action='{{ route('create.blogs') }}' method="POST" enctype="multipart/form-data" class="form form-vertical">
                                         @csrf
                                         <div class="row">
                                             <div class="col-12">

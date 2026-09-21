@@ -26,7 +26,7 @@ class blogController extends Controller
 
         $result = blog::create($blog);
         if ($result) {
-            return redirect('listblog')->with('success', 'blogs created is successfull');
+            return redirect('bloglist')->with('success', 'blogs created is successfull');
         } else {
             return back()->with('error', 'blogs created is not successfull');
         }
@@ -41,7 +41,7 @@ class blogController extends Controller
 
     }
 
-    function bloglist(request $request)
+    function listblog(request $request)
     {
         $blogs = blog::all();
         return view('backend.blogs.listblog', compact('blogs'));

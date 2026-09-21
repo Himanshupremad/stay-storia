@@ -62,7 +62,21 @@
                                 data-feather="circle"></i><span class="menu-item text-truncate"
                                 data-i18n="Preview">Create villas</span></a>
                     </li>
-                    <li><a class="d-flex align-items-center" href="{{ route('blogslist') }}"><i
+                    <li><a class="d-flex align-items-center" href="{{ route('listblog') }}"><i
+                                data-feather="circle"></i><span class="menu-item text-truncate"
+                                data-i18n="List">List</span></a>
+                    </li>
+
+                </ul>
+            </li>
+               <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="file-text"></i><span
+                        class="menu-title text-truncate" data-i18n="Invoice">FAQs</span></a>
+                <ul class="menu-content">
+                    <li><a class="d-flex align-items-center" href="{{ route('faqsget') }}"><i
+                                data-feather="circle"></i><span class="menu-item text-truncate"
+                                data-i18n="Preview">Create Faqs</span></a>
+                    </li>
+                    <li><a class="d-flex align-items-center" href="{{ route('faqslist') }}"><i
                                 data-feather="circle"></i><span class="menu-item text-truncate"
                                 data-i18n="List">List</span></a>
                     </li>
@@ -75,7 +89,7 @@
                                 data-i18n="Preview">Contact details</span></a>
                     </li>
                     
-            </li>
+           
 
                 
                     <li><a class="d-flex align-items-center" href="{{ route('abouts') }}"><i
